@@ -1,0 +1,5 @@
+CREATE TABLE orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    total_amount DOUBLE,
+    payment_status VARCHAR(20)
+);
